@@ -19,4 +19,4 @@ CREATE TABLE IF NOT EXISTS Persona (
 CREATE TABLE IF NOT EXISTS Draft (
     Any INT,
     PRIMARY KEY(Any)
-)
+);
