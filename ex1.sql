@@ -20,3 +20,9 @@ CREATE TABLE IF NOT EXISTS Draft (
     Any INT,
     PRIMARY KEY(Any)
 );
+
+CREATE TABLE IF NOT EXISTS EquipNacional (
+    Any INT,
+    Pais VARCHAR(20),
+    PRIMARY KEY(Any, Pais)
+)
